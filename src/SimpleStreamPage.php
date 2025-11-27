@@ -8,7 +8,7 @@ namespace JDWX\Web\Pages;
 
 
 use JDWX\Json\Json;
-use JDWX\Web\Flush;
+use JDWX\Stream\Flush;
 
 
 class SimpleStreamPage extends AbstractStreamPage {

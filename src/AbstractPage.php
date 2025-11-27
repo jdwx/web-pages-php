@@ -8,7 +8,7 @@ namespace JDWX\Web\Pages;
 
 
 use JDWX\Stream\StringableStreamTrait;
-use JDWX\Web\Flush;
+use JDWX\Stream\Flush;
 
 
 abstract class AbstractPage implements PageInterface {

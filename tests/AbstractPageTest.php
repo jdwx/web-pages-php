@@ -7,7 +7,7 @@ declare( strict_types = 1 );
 namespace JDWX\Web\Tests\Pages;
 
 
-use JDWX\Web\Flush;
+use JDWX\Stream\Flush;
 use JDWX\Web\Pages\AbstractPage;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
