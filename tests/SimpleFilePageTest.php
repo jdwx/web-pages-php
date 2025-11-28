@@ -27,7 +27,7 @@ final class SimpleFilePageTest extends TestCase {
 
 
     public function testRender() : void {
-        $page = new SimpleFilePage( __DIR__ . '/../Shims/TestFile.txt' );
+        $page = new SimpleFilePage( __DIR__ . '/../examples/example.txt' );
         self::assertSame( 'This is a test file.', $page->render() );
     }
 

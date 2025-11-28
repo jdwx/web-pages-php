@@ -2,6 +2,7 @@ parameters:
 	level: 8
 	treatPhpDocTypesAsCertain: false
 	paths:
+		- examples
 		- src
 		- tests
 	scanDirectories:
